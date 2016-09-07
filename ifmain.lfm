@@ -1,0 +1,231 @@
+object FMain: TFMain
+  Left = 1048
+  Height = 682
+  Top = 7
+  Width = 248
+  Align = alRight
+  BorderStyle = bsSingle
+  Caption = 'Lika Loka'
+  ClientHeight = 682
+  ClientWidth = 248
+  Color = clNone
+  FormStyle = fsMDIForm
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '1.6.0.4'
+  object ScrollBox1: TScrollBox
+    Left = 0
+    Height = 682
+    Top = 0
+    Width = 248
+    HorzScrollBar.Page = 218
+    VertScrollBar.Page = 678
+    Align = alClient
+    ClientHeight = 678
+    ClientWidth = 227
+    TabOrder = 0
+    object GroupBox1: TGroupBox
+      Left = 9
+      Height = 121
+      Top = 8
+      Width = 209
+      Caption = 'Cadastros'
+      ClientHeight = 101
+      ClientWidth = 205
+      TabOrder = 0
+      object Btn_Pessoa: TButton
+        Left = 0
+        Height = 32
+        Top = 8
+        Width = 200
+        Caption = 'Pessoa'
+        Color = 3024683
+        Font.Color = clBackground
+        Font.Quality = fqCleartype
+        OnClick = Btn_PessoaClick
+        ParentFont = False
+        TabOrder = 0
+      end
+      object Btn_Usuario: TButton
+        Left = 0
+        Height = 32
+        Top = 43
+        Width = 200
+        Caption = 'Usuários'
+        Color = 3024683
+        OnClick = Btn_UsuarioClick
+        TabOrder = 1
+      end
+    end
+    object GroupBox2: TGroupBox
+      Left = 9
+      Height = 199
+      Top = 129
+      Width = 209
+      Caption = 'Cadastros - Produto'
+      ClientHeight = 179
+      ClientWidth = 205
+      TabOrder = 1
+      object Btn_Cor: TButton
+        Left = -1
+        Height = 32
+        Top = 39
+        Width = 200
+        Caption = 'Cor'
+        Color = clForm
+        OnClick = Btn_CorClick
+        TabOrder = 0
+      end
+      object Btn_Unidade: TButton
+        Left = 0
+        Height = 32
+        Top = 4
+        Width = 200
+        Caption = 'Unidade'
+        Color = clForm
+        OnClick = Btn_UnidadeClick
+        TabOrder = 1
+      end
+      object Btn_marca: TButton
+        Left = 0
+        Height = 32
+        Top = 73
+        Width = 200
+        Caption = 'Marca'
+        Color = clForm
+        OnClick = Btn_marcaClick
+        TabOrder = 2
+      end
+      object Btn_produto: TButton
+        Left = 0
+        Height = 32
+        Top = 142
+        Width = 200
+        Caption = 'Produto'
+        Color = clForm
+        OnClick = Btn_produtoClick
+        TabOrder = 3
+      end
+      object Btn_Tamanho: TButton
+        Left = 0
+        Height = 32
+        Top = 107
+        Width = 200
+        Caption = 'Tamanho'
+        Color = clForm
+        OnClick = Btn_TamanhoClick
+        TabOrder = 4
+      end
+    end
+    object GroupBox3: TGroupBox
+      Left = 9
+      Height = 138
+      Top = 336
+      Width = 209
+      Caption = 'Pedido'
+      ClientHeight = 118
+      ClientWidth = 205
+      TabOrder = 2
+      object Btn_PedidoVenda: TButton
+        Left = 0
+        Height = 32
+        Top = 4
+        Width = 200
+        Caption = 'Pedido Venda'
+        Color = clForm
+        OnClick = Btn_UnidadeClick
+        TabOrder = 0
+      end
+      object Btn_PedidoCompra: TButton
+        Left = 0
+        Height = 32
+        Top = 42
+        Width = 200
+        Caption = 'Pedido Compra'
+        Color = clForm
+        OnClick = Btn_UnidadeClick
+        TabOrder = 1
+      end
+      object Btn_AjusteEstoque: TButton
+        Left = -1
+        Height = 32
+        Top = 80
+        Width = 200
+        Caption = 'Ajuste de Estoque (E/S)'
+        Color = clForm
+        OnClick = Btn_UnidadeClick
+        TabOrder = 2
+      end
+    end
+    object GroupBox4: TGroupBox
+      Left = 9
+      Height = 104
+      Top = 632
+      Width = 200
+      Caption = 'Configurações'
+      ClientHeight = 84
+      ClientWidth = 196
+      TabOrder = 3
+      object Btn_TipoPedido: TButton
+        Left = 0
+        Height = 32
+        Top = 4
+        Width = 192
+        Caption = 'Tipo de Pedido'
+        Color = clForm
+        OnClick = Btn_TipoPedidoClick
+        TabOrder = 0
+      end
+      object Btn_Configuracoes: TButton
+        Left = 0
+        Height = 32
+        Top = 48
+        Width = 200
+        Caption = 'Configurações'
+        OnClick = Btn_ConfiguracoesClick
+        TabOrder = 1
+      end
+    end
+    object GroupBox5: TGroupBox
+      Left = 9
+      Height = 140
+      Top = 484
+      Width = 201
+      Caption = 'Relatórios'
+      ClientHeight = 120
+      ClientWidth = 197
+      TabOrder = 4
+      object Btn_AjusteEstoque1: TButton
+        Left = 0
+        Height = 32
+        Top = 0
+        Width = 196
+        Caption = 'Cadastros'
+        Color = clForm
+        OnClick = Btn_UnidadeClick
+        TabOrder = 0
+      end
+      object Btn_AjusteEstoque2: TButton
+        Left = 0
+        Height = 32
+        Top = 40
+        Width = 196
+        Caption = 'Pedidos'
+        Color = clForm
+        OnClick = Btn_UnidadeClick
+        TabOrder = 1
+      end
+      object Btn_AjusteEstoque3: TButton
+        Left = 0
+        Height = 32
+        Top = 80
+        Width = 196
+        Caption = 'Estoque'
+        Color = clForm
+        OnClick = Btn_UnidadeClick
+        TabOrder = 2
+      end
+    end
+  end
+end

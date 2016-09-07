@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Debug"/>
+    <Units Count="47">
+      <Unit0>
+        <Filename Value="LikaLokaServer.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="17"/>
+        <CursorPos X="60" Y="18"/>
+        <UsageCount Value="210"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ifmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ifMain"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="203"/>
+        <CursorPos X="35" Y="196"/>
+        <UsageCount Value="380"/>
+        <Bookmarks Count="1">
+          <Item0 X="5" Y="223" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="Base\utbasedados.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTBaseDados"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="154"/>
+        <CursorPos X="3" Y="135"/>
+        <UsageCount Value="210"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Rn\Cadastro\utcad_cadastro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTCad_Cadastro"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="41"/>
+        <CursorPos X="74" Y="69"/>
+        <UsageCount Value="209"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Rn\Cadastro\utcad_cadastroendereco.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utcad_cadastroEndereco"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="14"/>
+        <UsageCount Value="208"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="InterfaceGUI\Cadastro\ifcad_cadastro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FCad_Cadastro"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ifCad_Cadastro"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="330"/>
+        <CursorPos X="22" Y="353"/>
+        <UsageCount Value="201"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Rn\Cadastro\utcns_cadastro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utCns_cadastro"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="39"/>
+        <CursorPos X="27" Y="60"/>
+        <UsageCount Value="202"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="iflogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ifLogin"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="51"/>
+        <CursorPos X="87" Y="63"/>
+        <UsageCount Value="213"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Rn\Ambiente\utmap_ambiente.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utMap_Ambiente"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="16"/>
+        <UsageCount Value="213"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Base\ut_constante.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uT_Constante"/>
+        <EditorIndex Value="15"/>
+        <CursorPos X="29" Y="13"/>
+        <UsageCount Value="227"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="Rn\Cadastro\utcad_unidade.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTCad_Unidade"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="36" Y="96"/>
+        <UsageCount Value="220"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="Rn\Cadastro\utcns_unidade.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTCNS_Unidade"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="55" Y="27"/>
+        <UsageCount Value="220"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="Rn\Utils\bpf_geral.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="bPF_Geral"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="48"/>
+        <CursorPos X="24" Y="53"/>
+        <UsageCount Value="259"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="Rn\Utils\bpf_validacao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="bPF_Validacao"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="15"/>
+        <UsageCount Value="379"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="InterfaceGUI\Cadastro\ifcad_usuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FCad_Usuario"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="191"/>
+        <CursorPos Y="225"/>
+        <UsageCount Value="377"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="InterfaceGUI\Cadastro\ifcad_marca.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FCad_Marca"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <CursorPos X="40" Y="69"/>
+        <UsageCount Value="370"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="InterfaceGUI\Cadastro\ifcad_tabelapreco.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FCad_TabelaPreco"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ifcad_tabelaPreco"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="35"/>
+        <CursorPos X="16" Y="64"/>
+        <UsageCount Value="368"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="InterfaceGUI\Cadastro\ifcad_tamanho.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FCad_Tamanho"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="41" Y="9"/>
+        <UsageCount Value="366"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="InterfaceGUI\Cadastro\ifcad_unidade.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FCad_Unidade"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="78"/>
+        <CursorPos X="40" Y="91"/>
+        <UsageCount Value="365"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="InterfaceGUI\Cadastro\ifcad_produto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FCad_Produto"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="288"/>
+        <CursorPos X="31" Y="128"/>
+        <UsageCount Value="365"/>
+        <Loaded Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="Rn\Cadastro\utcad_usuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="71"/>
+        <CursorPos X="59" Y="85"/>
+        <UsageCount Value="364"/>
+        <Loaded Value="True"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="InterfaceGUI\Cadastro\ifpedido_tipo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FPedido_Tipo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="98"/>
+        <CursorPos X="4" Y="188"/>
+        <UsageCount Value="363"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="InterfaceGUI\Cadastro\ifmov_pedidovenda.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMov_PedidoVenda"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="37" Y="30"/>
+        <UsageCount Value="361"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="InterfaceGUI\Cadastro\ifmov_pedidocompra.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMov_PedidoCompra"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="53" Y="12"/>
+        <UsageCount Value="361"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="Rn\Cadastro\utcns_usuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTCns_Usuario"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="54"/>
+        <CursorPos X="50" Y="42"/>
+        <UsageCount Value="304"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="Rn\Relatorios\Cadastros\mDMRel_Cadastros.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DataModule1"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="53" Y="12"/>
+        <UsageCount Value="318"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="Rn\Pedido\Venda\uTMov_Pedido.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="36" Y="11"/>
+        <UsageCount Value="317"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="Rn\Pedido\Venda\uTMov_PedidoItem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="12"/>
+        <UsageCount Value="317"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="Rn\Movimentacao\uTCad_TipoPedido.pas"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="123"/>
+        <CursorPos X="36" Y="137"/>
+        <UsageCount Value="317"/>
+        <Loaded Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="Rn\Cadastro\utcad_marca.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="61"/>
+        <CursorPos Y="77"/>
+        <UsageCount Value="316"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="Rn\Cadastro\utcns_marca.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="35" Y="68"/>
+        <UsageCount Value="315"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="Rn\Cadastro\utcad_tamanho.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="50" Y="32"/>
+        <UsageCount Value="224"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="Rn\Cadastro\utcns_tamanho.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utCNS_tamanho"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="36"/>
+        <CursorPos X="37" Y="43"/>
+        <UsageCount Value="224"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="InterfaceGUI\Outros\ifOtr_Pesquisar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TOtr_Consultar"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="106"/>
+        <CursorPos Y="122"/>
+        <UsageCount Value="218"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="InterfaceGUI\Outros\uTCns_Pesquisar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="42"/>
+        <CursorPos X="3" Y="15"/>
+        <UsageCount Value="217"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="Rn\Cadastro\uTCad_Produto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="124"/>
+        <CursorPos X="16" Y="137"/>
+        <UsageCount Value="231"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="Rn\MVC\uT_BaseMVC.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="14"/>
+        <TopLine Value="18"/>
+        <CursorPos X="16" Y="32"/>
+        <UsageCount Value="229"/>
+        <Loaded Value="True"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="C:\lazarus1.6\lcl\include\customnotebook.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="302"/>
+        <CursorPos Y="319"/>
+        <UsageCount Value="39"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="C:\lazarus1.6\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8299"/>
+        <CursorPos Y="8310"/>
+        <UsageCount Value="40"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="C:\lazarus1.6\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2262"/>
+        <CursorPos Y="2274"/>
+        <UsageCount Value="77"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="C:\lazarus1.6\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="14" Y="19"/>
+        <UsageCount Value="39"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="Rn\Movimentacao\uTCns_TipoPedido.pas"/>
+        <EditorIndex Value="16"/>
+        <TopLine Value="51"/>
+        <CursorPos X="77" Y="41"/>
+        <UsageCount Value="87"/>
+        <Loaded Value="True"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="Rn\Utils\Security\uTOtr_SystemLog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="49"/>
+        <CursorPos X="46" Y="60"/>
+        <UsageCount Value="173"/>
+        <Loaded Value="True"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="Rn\Utils\Security\uTOtr_AmbienteView.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="27"/>
+        <CursorPos X="90" Y="52"/>
+        <UsageCount Value="173"/>
+        <Loaded Value="True"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="Rn\Utils\Security\uTSys_GetGlobalsVars.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="5" Y="10"/>
+        <UsageCount Value="173"/>
+        <Loaded Value="True"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="2724"/>
+        <CursorPos X="45" Y="2743"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="Rn\Utils\utCfg_loadFromIni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="5" Y="11"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit46>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="127" TopLine="111"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="92" TopLine="78"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="112" TopLine="99"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="113" TopLine="99"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="112" TopLine="99"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="114" TopLine="99"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="115" TopLine="99"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="112" TopLine="99"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="116" TopLine="99"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="112" TopLine="99"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="116" TopLine="99"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="119" TopLine="99"/>
+      </Position12>
+      <Position13>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="120" TopLine="99"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="195" TopLine="181"/>
+      </Position14>
+      <Position15>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2743" Column="45" TopLine="2724"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="195" Column="22" TopLine="181"/>
+      </Position16>
+      <Position17>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="94" Column="53" TopLine="83"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="194" TopLine="180"/>
+      </Position18>
+      <Position19>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="88" TopLine="74"/>
+      </Position19>
+      <Position20>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="89" TopLine="80"/>
+      </Position20>
+      <Position21>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="92" TopLine="80"/>
+      </Position21>
+      <Position22>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="125" TopLine="111"/>
+      </Position22>
+      <Position23>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="127" TopLine="111"/>
+      </Position23>
+      <Position24>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="92" TopLine="78"/>
+      </Position24>
+      <Position25>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="112" Column="30" TopLine="102"/>
+      </Position25>
+      <Position26>
+        <Filename Value="ifmain.pas"/>
+        <Caret Line="88" TopLine="74"/>
+      </Position26>
+      <Position27>
+        <Filename Value="Rn\Cadastro\utcad_cadastro.pas"/>
+        <Caret Line="69" Column="74" TopLine="41"/>
+      </Position27>
+      <Position28>
+        <Filename Value="Rn\Cadastro\utcad_usuario.pas"/>
+        <Caret Line="85" Column="59" TopLine="71"/>
+      </Position28>
+      <Position29>
+        <Filename Value="Rn\Utils\Security\uTOtr_SystemLog.pas"/>
+        <Caret Line="57" TopLine="43"/>
+      </Position29>
+      <Position30>
+        <Filename Value="iflogin.pas"/>
+        <Caret Line="62" Column="53" TopLine="50"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="6">
+      <Item1>
+        <Kind Value="bpkAddress"/>
+        <Address Value="185437"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="InterfaceGUI\Cadastro\ifcad_produto.pas"/>
+        <Line Value="90"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="InterfaceGUI\Cadastro\ifcad_produto.pas"/>
+        <Line Value="85"/>
+      </Item3>
+      <Item4>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="InterfaceGUI\Cadastro\ifcad_produto.pas"/>
+        <Line Value="86"/>
+      </Item4>
+      <Item5>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="Rn\Utils\Security\uTOtr_SystemLog.pas"/>
+        <Line Value="57"/>
+      </Item5>
+      <Item6>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="Rn\Utils\Security\uTOtr_SystemLog.pas"/>
+        <Line Value="71"/>
+      </Item6>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>
